@@ -5,6 +5,14 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MavenTest</name>
   
+  <dependencies>
+  	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-java</artifactId>
+    	<version>3.141.59</version>
+	</dependency>
+  </dependencies>
+  
 	<build>
         <plugins>
             <plugin>
