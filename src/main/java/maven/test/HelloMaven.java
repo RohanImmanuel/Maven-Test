@@ -11,8 +11,8 @@ import java.net.URL;
 
 public class HelloMaven {
 	
-  public static final String USERNAME = System.getenv("BSUSER");
-  public static final String AUTOMATE_KEY = System.getenv("BSKEY");
+  public static final String USERNAME = System.getenv("BROWSERSTACK_USER");
+  public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESSKEY");
   public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
   public static void main(String[] args) throws Exception {
